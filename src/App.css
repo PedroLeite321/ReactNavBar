@@ -1,0 +1,69 @@
+* {
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding:0;
+  border:0;
+  overflow-y:hidden;
+}
+.App  {
+  height:100vh;
+  width:100%;
+}
+#navigationContainer  {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-content: center;
+  align-items: center;
+  height:8rem;
+}
+#navHeader  {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+#navHeader > h1 {
+  font-size: 40px;
+  text-rendering: optimizeLegibility;
+  font-size-adjust: 0.644;
+  padding:5px;
+  font-weight: 600;
+}
+#navHeader > h1:hover{
+  cursor:pointer;
+  color: rgb(41, 41, 41);
+}
+#nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navItem{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  padding:5px;
+  text-shadow: 0.5px 1px, gray;
+}
+.navItem:hover{
+  cursor:pointer;
+  color: rgb(41, 41, 41);
+}
+#sectionContainer {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  height: 100%;
+}
+#sectionContainer > h2{
+  font-size:50px;
+  font-weight: 800;
+}
